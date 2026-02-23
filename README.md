@@ -8,6 +8,19 @@ The Mental Health Escalation Router is a critical safety system designed to dete
 
 **📖 For detailed architecture specification, see [ARCHITECTURE.md](ARCHITECTURE.md)** - Complete RFC-grade documentation with exhaustive layer, sublayer, and contract definitions.
 
+## 🎯 Completion Status
+
+This is a **life-critical system** requiring completion across **9 independent domains**. See comprehensive documentation:
+
+- **[COMPLETION_CHECKLIST.md](docs/COMPLETION_CHECKLIST.md)** - Master checklist across all 9 domains
+- **[DEPLOYMENT_READINESS.md](docs/DEPLOYMENT_READINESS.md)** - Production readiness assessment
+- **[SAFETY_GUARANTEES.md](docs/SAFETY_GUARANTEES.md)** - Formal safety properties and proofs
+- **[CLINICAL_REVIEW.md](docs/CLINICAL_REVIEW.md)** - Clinical validation framework
+
+**Current Status**: ⚠️ **NOT READY FOR PRODUCTION** (~15% complete across all domains)
+
+See [DEPLOYMENT_READINESS.md](docs/DEPLOYMENT_READINESS.md) for complete gap analysis and timeline.
+
 ## Core Components
 
 ### 1. Text/Audio Inference Engine

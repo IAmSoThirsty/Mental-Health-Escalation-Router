@@ -6,6 +6,8 @@ Real-time detection of high-risk distress signals and safe routing to human reso
 
 The Mental Health Escalation Router is a critical safety system designed to detect distress signals in text and audio communications, classify risk levels, and route high-risk cases to appropriate human resources while maintaining strict privacy and safety guardrails.
 
+**📖 For detailed architecture specification, see [ARCHITECTURE.md](ARCHITECTURE.md)** - Complete RFC-grade documentation with exhaustive layer, sublayer, and contract definitions.
+
 ## Core Components
 
 ### 1. Text/Audio Inference Engine

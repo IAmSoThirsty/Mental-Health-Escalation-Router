@@ -28,6 +28,23 @@ from .human_in_loop import (
     HumanResponseStatus,
 )
 from .privacy import PrivacyGuard, PrivacyPolicy, DataSensitivity
+from .security import InputValidator, RateLimiter, AbuseDetector, RequestSigner
+from .resilience import (
+    CircuitBreaker,
+    Bulkhead,
+    HealthMonitor,
+    GracefulDegradation,
+    BackpressureManager,
+    MetricsCollector,
+)
+from .audit import AuditChain, DataRetentionManager, DistributedTracing
+from .config import (
+    ProductionConfig,
+    ConfigManager,
+    get_config,
+    get_config_manager,
+    Environment,
+)
 
 __all__ = [
     "InferenceEngine",
@@ -51,4 +68,22 @@ __all__ = [
     "PrivacyGuard",
     "PrivacyPolicy",
     "DataSensitivity",
+    "InputValidator",
+    "RateLimiter",
+    "AbuseDetector",
+    "RequestSigner",
+    "CircuitBreaker",
+    "Bulkhead",
+    "HealthMonitor",
+    "GracefulDegradation",
+    "BackpressureManager",
+    "MetricsCollector",
+    "AuditChain",
+    "DataRetentionManager",
+    "DistributedTracing",
+    "ProductionConfig",
+    "ConfigManager",
+    "get_config",
+    "get_config_manager",
+    "Environment",
 ]
